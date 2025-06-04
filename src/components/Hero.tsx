@@ -19,12 +19,12 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             Hi, I'm{" "}
             <span className="bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">
-              Alex Johnson
+              Nivi Bokadia
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Full Stack Developer passionate about creating beautiful, functional web applications
-            that solve real-world problems.
+            B.Tech in Information Technology student passionate about creating innovative solutions 
+            in software development, UI/UX design, and emerging technologies.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -47,7 +47,7 @@ const Hero = () => {
 
           <div className="flex justify-center space-x-6">
             <a 
-              href="https://github.com" 
+              href="https://github.com/Nivi-Bokadia" 
               className="text-gray-400 hover:text-white transition-colors duration-300 hover:scale-110 transform"
               target="_blank" 
               rel="noopener noreferrer"
@@ -55,7 +55,7 @@ const Hero = () => {
               <Github className="h-8 w-8" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://linkedin.com/in/nivi-bokadia" 
               className="text-gray-400 hover:text-white transition-colors duration-300 hover:scale-110 transform"
               target="_blank" 
               rel="noopener noreferrer"
@@ -63,7 +63,7 @@ const Hero = () => {
               <Linkedin className="h-8 w-8" />
             </a>
             <a 
-              href="mailto:alex@example.com" 
+              href="mailto:nivibokadia@gmail.com" 
               className="text-gray-400 hover:text-white transition-colors duration-300 hover:scale-110 transform"
             >
               <Mail className="h-8 w-8" />

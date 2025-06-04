@@ -1,50 +1,57 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Briefcase, Calendar } from "lucide-react";
+import { Briefcase, Calendar, Award } from "lucide-react";
 
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Frontend Developer",
-      company: "TechCorp Solutions",
-      period: "2022 - Present",
-      description: "Led frontend development for enterprise web applications, mentored junior developers, and implemented modern React patterns.",
+      title: "SDE Intern",
+      company: "Accelus Robotics",
+      period: "June 2024 - August 2024",
+      description: "Built an interpreter in C with virtual machine that is platform independent and is 70% faster than AST. Helped in developing a software for robotic arm at the assembly line in C++ that is expected to improve efficiency by 34%.",
       achievements: [
-        "Improved application performance by 40%",
-        "Led team of 5 developers",
-        "Implemented design system used across 10+ projects"
+        "Built platform-independent C interpreter with VM",
+        "Achieved 70% performance improvement over AST",
+        "Developed robotic arm software improving efficiency by 34%"
       ]
     },
     {
-      title: "Full Stack Developer",
-      company: "StartupXYZ",
-      period: "2020 - 2022",
-      description: "Developed and maintained full-stack web applications using React, Node.js, and PostgreSQL.",
+      title: "UI/UX Intern",
+      company: "ATG Globe",
+      period: "June 2024 - August 2024",
+      description: "Contributed to the website, especially the Jobs and Chats section, building multiple pages over 3 months. Engaged with diverse stakeholders and conducted numerous UX research initiatives to optimize user experience.",
       achievements: [
-        "Built MVP that secured $2M funding",
-        "Reduced server costs by 30%",
-        "Implemented CI/CD pipeline"
-      ]
-    },
-    {
-      title: "Frontend Developer",
-      company: "Digital Agency",
-      period: "2019 - 2020",
-      description: "Created responsive websites and web applications for various clients using modern frontend technologies.",
-      achievements: [
-        "Delivered 20+ client projects",
-        "Improved site speed by 50%",
-        "Mentored 3 junior developers"
+        "Built multiple web pages over 3 months",
+        "Conducted UX research initiatives",
+        "Optimized user experience through stakeholder engagement"
       ]
     }
   ];
 
   const education = [
     {
-      degree: "Bachelor of Computer Science",
-      school: "University of Technology",
-      period: "2015 - 2019",
-      description: "Graduated Magna Cum Laude with focus on Software Engineering and Web Technologies."
+      degree: "B.Tech in Information Technology",
+      school: "DJ Sanghvi College of Engineering affiliated with Mumbai University",
+      period: "2022 - 2026",
+      description: "Honours in Development and Operations with Average CGPA: 9.3/10"
+    }
+  ];
+
+  const achievements = [
+    {
+      title: "International Rover Challenge Winner",
+      description: "Won 3rd, 2nd in IRDC worldwide in 2024. Also placed 1st present onsite, 2nd in Asia and 1st in India in European Rover Challenge in 2024.",
+      period: "2024"
+    },
+    {
+      title: "Marketing Challenge Winner",
+      description: "Developed a go-to-market strategy and B2B partnerships plan for a health snack brand, earning ₹15,000 in a business pitch competition.",
+      period: "Inceptio 8.0"
+    },
+    {
+      title: "BBB Frontend Hackathon Winner",
+      description: "Built a full-featured fashion exchange web platform in 8 hours using frontend technologies to promote sustainable fashion.",
+      period: "SPIT"
     }
   ];
 
@@ -56,11 +63,11 @@ const Experience = () => {
             Experience & Education
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            My professional journey and educational background
+            My professional journey, educational background, and achievements
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-3 gap-8 mb-16">
           <div className="lg:col-span-2">
             <h3 className="text-2xl font-semibold text-white mb-8 flex items-center">
               <Briefcase className="mr-3 h-6 w-6 text-purple-400" />
@@ -111,7 +118,7 @@ const Experience = () => {
             {education.map((edu, index) => (
               <Card 
                 key={edu.degree}
-                className="bg-black/40 backdrop-blur-lg border-purple-800/30 hover:bg-black/50 transition-all duration-300 animate-fade-in"
+                className="bg-black/40 backdrop-blur-lg border-purple-800/30 hover:bg-black/50 transition-all duration-300 animate-fade-in mb-6"
                 style={{ animationDelay: `${index * 200}ms` }}
               >
                 <CardContent className="p-6">
@@ -119,6 +126,29 @@ const Experience = () => {
                   <p className="text-lg text-purple-300 mb-2">{edu.school}</p>
                   <p className="text-purple-400 font-medium mb-3">{edu.period}</p>
                   <p className="text-gray-300">{edu.description}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-semibold text-white mb-8 flex items-center">
+            <Award className="mr-3 h-6 w-6 text-purple-400" />
+            Achievements & Awards
+          </h3>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {achievements.map((achievement, index) => (
+              <Card 
+                key={achievement.title}
+                className="bg-black/40 backdrop-blur-lg border-purple-800/30 hover:bg-black/50 transition-all duration-300 animate-fade-in"
+                style={{ animationDelay: `${index * 200}ms` }}
+              >
+                <CardContent className="p-6">
+                  <h4 className="text-lg font-semibold text-white mb-2">{achievement.title}</h4>
+                  <p className="text-purple-400 font-medium mb-3">{achievement.period}</p>
+                  <p className="text-gray-300 text-sm">{achievement.description}</p>
                 </CardContent>
               </Card>
             ))}

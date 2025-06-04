@@ -4,17 +4,18 @@ import { Progress } from "@/components/ui/progress";
 
 const Skills = () => {
   const skills = [
-    { name: "React/Next.js", level: 90, color: "from-purple-500 to-purple-700" },
-    { name: "TypeScript", level: 85, color: "from-purple-600 to-purple-800" },
-    { name: "Node.js", level: 80, color: "from-purple-500 to-purple-700" },
-    { name: "Python", level: 75, color: "from-purple-400 to-purple-600" },
-    { name: "AWS/Cloud", level: 70, color: "from-purple-500 to-purple-700" },
-    { name: "PostgreSQL", level: 85, color: "from-purple-600 to-purple-800" },
+    { name: "Python", level: 90, color: "from-purple-500 to-purple-700" },
+    { name: "JavaScript", level: 85, color: "from-purple-600 to-purple-800" },
+    { name: "C/C++", level: 80, color: "from-purple-500 to-purple-700" },
+    { name: "React JS", level: 85, color: "from-purple-400 to-purple-600" },
+    { name: "Java", level: 75, color: "from-purple-500 to-purple-700" },
+    { name: "SQL", level: 80, color: "from-purple-600 to-purple-800" },
   ];
 
   const tools = [
-    "JavaScript", "React", "Node.js", "Python", "TypeScript", "PostgreSQL", 
-    "MongoDB", "AWS", "Docker", "Git", "Figma", "Tailwind CSS"
+    "Python", "C", "SQL", "JavaScript", "HTML/CSS", "Java", "C++", 
+    "Antlr4", "Debian", "OpenCV", "Pandas", "Numpy", "Sci-kit Learn", 
+    "React JS", "Matplotlib", "NLP", "Figma", "UI/UX Design"
   ];
 
   return (
@@ -32,7 +33,7 @@ const Skills = () => {
         <div className="grid md:grid-cols-2 gap-8 mb-16">
           <Card className="bg-black/40 backdrop-blur-lg border-purple-800/30 hover:bg-black/50 transition-all duration-300">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-semibold text-white mb-6">Technical Skills</h3>
+              <h3 className="text-2xl font-semibold text-white mb-6">Programming Languages</h3>
               <div className="space-y-6">
                 {skills.map((skill, index) => (
                   <div key={skill.name} className="animate-fade-in" style={{ animationDelay: `${index * 100}ms` }}>
@@ -52,7 +53,7 @@ const Skills = () => {
 
           <Card className="bg-black/40 backdrop-blur-lg border-purple-800/30 hover:bg-black/50 transition-all duration-300">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-semibold text-white mb-6">Tools & Technologies</h3>
+              <h3 className="text-2xl font-semibold text-white mb-6">Libraries & Frameworks</h3>
               <div className="flex flex-wrap gap-3">
                 {tools.map((tool, index) => (
                   <span 

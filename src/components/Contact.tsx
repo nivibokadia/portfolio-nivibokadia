@@ -54,7 +54,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-white font-medium">Email</p>
-                      <p className="text-gray-300">alex.johnson@example.com</p>
+                      <p className="text-gray-300">nivibokadia@gmail.com</p>
                     </div>
                   </div>
                   
@@ -64,7 +64,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-white font-medium">Phone</p>
-                      <p className="text-gray-300">+1 (555) 123-4567</p>
+                      <p className="text-gray-300">+91 9820286287</p>
                     </div>
                   </div>
                   
@@ -74,7 +74,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-white font-medium">Location</p>
-                      <p className="text-gray-300">San Francisco, CA</p>
+                      <p className="text-gray-300">Mumbai, India</p>
                     </div>
                   </div>
                 </div>
@@ -86,7 +86,7 @@ const Contact = () => {
                     I'd love to hear from you.
                   </p>
                   <p className="text-purple-400 font-medium">
-                    Available for freelance projects and full-time opportunities.
+                    Available for internships and full-time opportunities.
                   </p>
                 </div>
               </CardContent>
@@ -150,7 +150,7 @@ const Contact = () => {
 
         <div className="text-center mt-16 animate-fade-in" style={{ animationDelay: '600ms' }}>
           <p className="text-gray-400">
-            © 2024 Alex Johnson. Built with React, TypeScript, and Tailwind CSS.
+            © 2024 Nivi Bokadia. Built with React, TypeScript, and Tailwind CSS.
           </p>
         </div>
       </div>
