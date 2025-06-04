@@ -43,13 +43,13 @@ const Contact = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           <div className="animate-fade-in" style={{ animationDelay: '200ms' }}>
-            <Card className="bg-white/10 backdrop-blur-lg border-white/20 h-full">
+            <Card className="bg-black/40 backdrop-blur-lg border-purple-800/30 h-full">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-semibold text-white mb-6">Get In Touch</h3>
                 
                 <div className="space-y-6">
                   <div className="flex items-center space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
+                    <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-purple-800 rounded-full flex items-center justify-center">
                       <Mail className="h-6 w-6 text-white" />
                     </div>
                     <div>
@@ -59,7 +59,7 @@ const Contact = () => {
                   </div>
                   
                   <div className="flex items-center space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
+                    <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-purple-800 rounded-full flex items-center justify-center">
                       <Phone className="h-6 w-6 text-white" />
                     </div>
                     <div>
@@ -69,7 +69,7 @@ const Contact = () => {
                   </div>
                   
                   <div className="flex items-center space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
+                    <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-purple-800 rounded-full flex items-center justify-center">
                       <MapPin className="h-6 w-6 text-white" />
                     </div>
                     <div>
@@ -79,7 +79,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="mt-8 pt-8 border-t border-white/20">
+                <div className="mt-8 pt-8 border-t border-purple-800/30">
                   <p className="text-gray-300 mb-4">
                     I'm always interested in hearing about new opportunities and exciting projects. 
                     Whether you're a company looking to hire, or you're someone looking to collaborate, 
@@ -94,7 +94,7 @@ const Contact = () => {
           </div>
 
           <div className="animate-fade-in" style={{ animationDelay: '400ms' }}>
-            <Card className="bg-white/10 backdrop-blur-lg border-white/20">
+            <Card className="bg-black/40 backdrop-blur-lg border-purple-800/30">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-semibold text-white mb-6">Send a Message</h3>
                 
@@ -107,7 +107,7 @@ const Contact = () => {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="bg-white/10 border-white/20 text-white placeholder:text-gray-400 focus:border-purple-400"
+                      className="bg-black/20 border-purple-800/30 text-white placeholder:text-gray-400 focus:border-purple-400"
                     />
                   </div>
                   
@@ -119,7 +119,7 @@ const Contact = () => {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className="bg-white/10 border-white/20 text-white placeholder:text-gray-400 focus:border-purple-400"
+                      className="bg-black/20 border-purple-800/30 text-white placeholder:text-gray-400 focus:border-purple-400"
                     />
                   </div>
                   
@@ -131,13 +131,13 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       rows={5}
-                      className="bg-white/10 border-white/20 text-white placeholder:text-gray-400 focus:border-purple-400 resize-none"
+                      className="bg-black/20 border-purple-800/30 text-white placeholder:text-gray-400 focus:border-purple-400 resize-none"
                     />
                   </div>
                   
                   <Button
                     type="submit"
-                    className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white py-3 rounded-lg transition-all duration-300 hover:scale-105"
+                    className="w-full bg-gradient-to-r from-purple-600 to-purple-800 hover:from-purple-700 hover:to-purple-900 text-white py-3 rounded-lg transition-all duration-300 hover:scale-105"
                   >
                     <Send className="h-5 w-5 mr-2" />
                     Send Message

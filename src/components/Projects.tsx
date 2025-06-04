@@ -59,7 +59,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <Card 
               key={project.title}
-              className={`group bg-white/10 backdrop-blur-lg border-white/20 hover:bg-white/15 transition-all duration-500 hover:scale-105 overflow-hidden animate-fade-in ${
+              className={`group bg-black/40 backdrop-blur-lg border-purple-800/30 hover:bg-black/50 transition-all duration-500 hover:scale-105 overflow-hidden animate-fade-in ${
                 project.featured ? 'md:col-span-1' : ''
               }`}
               style={{ animationDelay: `${index * 200}ms` }}
@@ -85,7 +85,7 @@ const Projects = () => {
                   {project.tech.map((tech) => (
                     <span 
                       key={tech}
-                      className="px-3 py-1 bg-purple-500/20 border border-purple-400/30 rounded-full text-purple-300 text-xs font-medium"
+                      className="px-3 py-1 bg-purple-800/20 border border-purple-400/30 rounded-full text-purple-300 text-xs font-medium"
                     >
                       {tech}
                     </span>
@@ -106,7 +106,7 @@ const Projects = () => {
                   </Button>
                   <Button 
                     size="sm"
-                    className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700"
+                    className="bg-gradient-to-r from-purple-600 to-purple-800 hover:from-purple-700 hover:to-purple-900"
                     asChild
                   >
                     <a href={project.live} target="_blank" rel="noopener noreferrer">

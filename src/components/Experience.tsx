@@ -71,7 +71,7 @@ const Experience = () => {
               {experiences.map((exp, index) => (
                 <Card 
                   key={exp.title}
-                  className="bg-white/10 backdrop-blur-lg border-white/20 hover:bg-white/15 transition-all duration-300 animate-fade-in"
+                  className="bg-black/40 backdrop-blur-lg border-purple-800/30 hover:bg-black/50 transition-all duration-300 animate-fade-in"
                   style={{ animationDelay: `${index * 200}ms` }}
                 >
                   <CardContent className="p-6">
@@ -111,7 +111,7 @@ const Experience = () => {
             {education.map((edu, index) => (
               <Card 
                 key={edu.degree}
-                className="bg-white/10 backdrop-blur-lg border-white/20 hover:bg-white/15 transition-all duration-300 animate-fade-in"
+                className="bg-black/40 backdrop-blur-lg border-purple-800/30 hover:bg-black/50 transition-all duration-300 animate-fade-in"
                 style={{ animationDelay: `${index * 200}ms` }}
               >
                 <CardContent className="p-6">
