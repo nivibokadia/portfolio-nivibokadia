@@ -8,6 +8,7 @@ const Experience = () => {
       title: "SDE Intern",
       company: "Accelus Robotics",
       period: "June 2024 - August 2024",
+      companyDescription: "Accelus Robotics is a renowned manufacturer and supplier offering a wide range of automation products such as CNC Router Controller, Industrial Panel Computer, Standalone CNC Controller etc. The company offer the respective products in PAN India.",
       description: "Built an interpreter in C with virtual machine that is platform independent and is 70% faster than AST. Helped in developing a software for robotic arm at the assembly line in C++ that is expected to improve efficiency by 34%.",
       achievements: [
         "Built platform-independent C interpreter with VM",
@@ -19,6 +20,7 @@ const Experience = () => {
       title: "UI/UX Intern",
       company: "ATG Globe",
       period: "June 2024 - August 2024",
+      companyDescription: "ATG connects students and professionals Around the Globe. They are a startup based in Bangalore and our values are to help people excel in their careers, professional and personal lives. Their product(s) can help millions of people excel in their careers and hobbies. The product is the need of the hour and can help excel in their careers and help struggling people in their careers get a better job/direction/network. They thrive to provide support to people to achieve higher goals in pursuing success in their career.",
       description: "Contributed to the website, especially the Jobs and Chats section, building multiple pages over 3 months. Engaged with diverse stakeholders and conducted numerous UX research initiatives to optimize user experience.",
       achievements: [
         "Built multiple web pages over 3 months",
@@ -90,6 +92,7 @@ const Experience = () => {
                       </span>
                     </div>
                     <p className="text-lg text-purple-300 mb-3">{exp.company}</p>
+                    <p className="text-gray-400 text-sm mb-4 italic">{exp.companyDescription}</p>
                     <p className="text-gray-300 mb-4">{exp.description}</p>
                     
                     <div className="space-y-2">
