@@ -1,58 +1,32 @@
-## How can I edit this code?
-**Use your preferred IDE**
+Hi there, I'm Nivi Bokadia! 👋
+About Me
+I'm a passionate Software Development Engineer and B.Tech Information Technology student at DJ Sanghvi College of Engineering with a strong focus on Development and Operations. Currently maintaining a 9.3/10 CGPA, I combine technical expertise with creative problem-solving to build impactful solutions.
+What I Do
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Full-Stack Development: Proficient in MERN stack, Python, Java, C++, and modern web technologies
+AI/ML Engineering: Specialized in building RAG-based chatbots and NLP applications
+UI/UX Design: Creating user-centered designs with expertise in Figma, prototyping, and wireframing
+Programming Language Design: Developed NIVI programming language with custom interpreter and VM
+Robotics & Hardware: Contributing to robotic systems and participating in international rover challenges
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Key Achievements
+🏆 Competition Winner: Multiple hackathon victories including Marketing & Consulting Challenges at Inceptio 8.0 (₹30,000 total winnings)
+🚀 International Recognition:
 
-Follow these steps:
+3rd & 2nd place in IRDC worldwide 2024
+11th onsite, 2nd in Asia, 1st in India in European Rover Challenge 2024
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+💡 Technical Impact: Built systems that improved efficiency by 60-70% and contributed to projects with 2000+ registrations
+Current Focus
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Worked as UI/UX Intern at ATG Globe, optimizing user experiences through research and design
+Leading creative initiatives as Creatives Head at DJCSI
+Researching advanced robotics as Research Head at Antariksh
+Developing innovative solutions in AI, web development, and system design
 
-# Step 3: Install the necessary dependencies.
-npm i
+Let's Connect!
+I'm always excited to collaborate on interesting projects, discuss technology, or explore new opportunities in software development and design.
+📧 Email: nivibokadia@gmail.com
+📱 Phone: +91 9820286287
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/83f8975b-5630-4015-b6fa-7242c84dc1b5) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+"Turning ideas into reality through code, creativity, and collaboration" ✨
